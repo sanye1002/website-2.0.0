@@ -1,0 +1,23 @@
+#开发环境
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: yhyc2018
+    url: jdbc:mysql://localhost/website?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: false
+    #文件上传大小配置
+  http:
+    multipart:
+      max-file-size: 10MB
+  freemarker:
+    settings:
+      number_format: 0.##
+
+server:
+  port: 80
+  address: www.cdrysj.com
+
+upload:
+  path: D:\upload
