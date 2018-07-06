@@ -31,6 +31,7 @@ img {
 	padding: 0;
 	margin: 0;
 	border: 0px;
+	border-radius: 10px;
 }
 *:link, *:visited, *:hover, *:active, *:focus, .item-on-hover, .btn-success, #button {
 	-webkit-transition: all 0.3s linear;
@@ -444,6 +445,7 @@ color:#fff;
 	float: left;
 	margin-top: 80px;
 	position: relative;
+	border-radius: 10px;
 }
 .fuwu figure.bianju {
 	margin-left: 60px;

@@ -26,7 +26,7 @@
                                      target="_blank">在线QQ咨询</a></p>
             </section>
             <section>
-                <h3>填写主播申请表</h3>
+                <h3>填写艺人申请表</h3>
                 <div>
                     <input type="hidden" name="action" value="post"/>
                     <input type="hidden" name="diyid" value="1"/>

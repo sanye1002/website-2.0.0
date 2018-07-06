@@ -10,7 +10,7 @@
 <!-- ym-banner start -->
 <section class="ny-banner text-center" style="background-image:url(/rysj/imgs/banner_1.png)">
     <div class="container text-left">
-        <h2 class="text-left">荣耀世纪艺人</h2>
+        <h2 class="text-left">益豪娱创艺人</h2>
         <p class="weizhi">当前位置：<a href='/'>主页</a> > <a href='/rysj/anchor/list'>签约艺人</a> > </p>
     </div>
 </section>
@@ -29,7 +29,7 @@
 <div class="neirong">
     <article class="container info sx-padding clearfix" id="demo">
         <main class="main pull-left">
-            <h2 class="biaoti wow animated fadeInUp">荣耀世纪主播|${anchorInfo.getNickname()}</h2>
+            <h2 class="biaoti wow animated fadeInUp">益豪娱创艺人|${anchorInfo.getNickname()}</h2>
             <p class="shuoming wow animated fadeInUp">人气：<span id="show_i_hits">${anchorInfo.getLookNumber()}</span></p>
             <div class="wow animated fadeInUp">
                 ${anchorInfo.getContent()}
@@ -46,7 +46,7 @@
             </h4>
             <ul class="list-unstyled clearfix wow animated fadeInUp">
                 <#list anchorInfoList as anchor>
-                     <li><a href="/rysj/anchor/detail?id=${anchor.getId()}" target="_blank">荣耀世纪主播|${anchor.getNickname()}</a>
+                     <li><a href="/rysj/anchor/detail?id=${anchor.getId()}" target="_blank">益豪娱创艺人|${anchor.getNickname()}</a>
                          <small class="pull-right">02-06</small>
                      </li>
                 </#list>

@@ -14,7 +14,14 @@ spring:
   freemarker:
     settings:
       number_format: 0.##
-
+server:
+  port: 80
+  #address: www.cdrysj.com
+  ssl:
+    key-store: classpath:static/cert/www.cdrysj.com.pfx
+    key-store-password: yhyc2018
+    key-store-type: PKCS12
 
 upload:
   path: D:\upload
+
