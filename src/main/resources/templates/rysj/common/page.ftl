@@ -1,11 +1,10 @@
 <div class="pages">
-    <a href="${url}?page=1&size=${size}">首页</a>
+    <li class="thisclass"><a  class="page-active-style" href="${url}?page=1&size=${size}">首页</a></li>
     <#list 1..pageContent.getTotalPages() as index>
-
         <#if currentPage == index >
-           <a class="hover" href='${url}?page=${index}&size=${size}'>${index}</a>
+           <a class=" page-active-style" href='${url}?page=${index}&size=${size}'>${index}</a>
         <#else >
-        <a href='${url}?page=${index}&size=${size}'>${index}</a>
+        <a  class="page-active-style" href='${url}?page=${index}&size=${size}'>${index}</a>
         </#if>
     </#list>
     <#if currentPage gte pageContent.getTotalPages()>

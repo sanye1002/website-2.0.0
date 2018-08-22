@@ -1398,3 +1398,11 @@ zy-m15 {
 	text-overflow:ellipsis;
 	white-space: nowrap;
 }
+.page-active-style{
+	padding: 5px 10px;
+	border: 1px solid #ff6699;
+	background: #ff6699;
+	color: #fff;
+	text-decoration: none;
+	border-radius:3px
+}

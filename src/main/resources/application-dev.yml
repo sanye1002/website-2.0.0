@@ -2,9 +2,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: root
-    password: yhyc2018
-    url: jdbc:mysql://localhost/website?characterEncoding=utf-8&useSSL=false
+    username: website
+    password: weile1314
+    url: jdbc:mysql://120.79.2.77/website?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: false
     #文件上传大小配置
@@ -15,13 +15,7 @@ spring:
     settings:
       number_format: 0.##
 server:
-  port: 80
-  #address: www.cdrysj.com
-  ssl:
-    key-store: classpath:static/cert/www.cdrysj.com.pfx
-    key-store-password: yhyc2018
-    key-store-type: PKCS12
-
+  port: 8080
+  address: localhost
 upload:
-  path: D:\upload
-
+  path: /Users/zhaoxiang/update

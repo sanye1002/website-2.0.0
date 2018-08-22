@@ -6,21 +6,18 @@
                 <li><a href="/">网站首页</a></li>
                 <li><a href="/rysj/about/company">关于我们</a>
                     <ul class="list-unstyled">
-
                         <li><a href="/rysj/about/company">公司简介</a></li>
-
                         <li><a href="/rysj/about/team">团队介绍</a></li>
-
                     </ul>
                 </li>
                 <li><a href="/rysj/anchor/list">艺人主播</a>
                     <ul class="list-unstyled">
-
                     </ul>
                 </li>
-                <li><a href="/rysj/article/list?type=3">益豪娱创</a>
+                <li><a href="">产品中心</a>
                     <ul class="list-unstyled">
-
+                        <li><a href=''>软件产品</a></li>
+                        <li><a href=''>影视制作</a></li>
                     </ul>
                 </li>
                 <li><a href="/rysj/recruit/anchor">艺人招募</a>

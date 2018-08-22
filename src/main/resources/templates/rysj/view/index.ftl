@@ -86,14 +86,14 @@
 
             <figure class="bianju wow animated zoomIn">
                 <a href="javascript:" class="pic5" target="_blank"></a>
-                <figcaption><a href="javascript:">广告推广</a></figcaption>
-                <p>每天大量的流量的曝光率，网红资源整合新媒体传媒，CPS,CPA多种形式的广告推广合作模式，精准的投放通道，让您的推广具有穿透力。</p>
+                <figcaption><a href="javascript:">软件开发</a></figcaption>
+                <p>我们有着专业的开发团队，提供安全、完整的系统策划和设计，先进、专业的技术支持，完善、快速的售后服务，一站式解决你所需要的服务</p>
             </figure>
 
             <figure class="wow animated zoomIn">
                 <a href="javascript:" class="pic6" target="_blank"></a>
-                <figcaption><a href="javascript:">整合营销</a></figcaption>
-                <p>致力于互联网内容营销，为客户提供优质的互联网资源(新媒体资源、网红资源）、优秀的线上媒体资源，为客户提供精准、更有效的线上品牌营销服务。</p>
+                <figcaption><a href="javascript:">影视制作</a></figcaption>
+                <p>专业从事电视栏目策划、拍摄、制作。拥有高素质、专业的摄像、编导、剪辑、配音队伍。专业、活力、创新是我们服务的资本</p>
             </figure>
         </div>
 

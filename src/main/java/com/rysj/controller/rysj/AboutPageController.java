@@ -37,11 +37,11 @@ public class AboutPageController {
     }
 
     @GetMapping("/company")
-
     public ModelAndView company(Map<String, Object> map) {
         map.put("type", 1);
         return new ModelAndView("rysj/view/company", map);
     }
+
     @GetMapping("/job")
     public ModelAndView job(Map<String, Object> map) {
         map.put("type", 1);
