@@ -145,6 +145,8 @@
 </div>
 
 <#include "../common/footjs.ftl">
+<script src="/layui/layui.js" charset="utf-8"></script>
+
 <script type="text/javascript">
     var anchor = {
         id: ${anchor.getId()},

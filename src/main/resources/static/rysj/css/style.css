@@ -1399,10 +1399,8 @@ zy-m15 {
 	white-space: nowrap;
 }
 .page-active-style{
-	padding: 5px 10px;
-	border: 1px solid #ff6699;
-	background: #ff6699;
-	color: #fff;
-	text-decoration: none;
-	border-radius:3px
+
+	background: #ff6699 !important;
+	color: #fff !important;
+
 }

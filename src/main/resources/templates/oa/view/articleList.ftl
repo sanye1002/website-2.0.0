@@ -156,6 +156,7 @@
 </div>
 
 <#include "../common/footjs.ftl">
+<script src="/layui/layui.js" charset="utf-8"></script>
 <script type="text/javascript">
     function deleteArticle(id) {
         $.post(
@@ -163,8 +164,7 @@
                 {id: id},
                 function (res) {
                     if (res.code==0){
-
-                        alert(res.message)
+                        layer.msg(res.message)
                         $("#"+id).remove()
                     }
 

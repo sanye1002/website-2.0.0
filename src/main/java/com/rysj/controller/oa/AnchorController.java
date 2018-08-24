@@ -96,7 +96,6 @@ public class AnchorController {
             log.info("【保存艺人】 error_message = {}", map.get("message"));
             return ResultVOUtil.error(100, bindingResult.getFieldError().getDefaultMessage());
         }
-
         AnchorInfo anchorInfo = new AnchorInfo();
         try {
             if (anchorInfoForm.getId() != null) {

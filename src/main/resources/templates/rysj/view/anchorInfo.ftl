@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
-<#include "../common/head.ftl">
+<#include "../common/head2SEO.ftl">
 <body>
 <!-- head start -->
 <#include "../common/header.ftl">
-
 
 <!-- head End -->
 <!-- ym-banner start -->
@@ -32,7 +31,7 @@
             <h2 class="biaoti wow animated fadeInUp">益豪娱创艺人|${anchorInfo.getNickname()}</h2>
             <p class="shuoming wow animated fadeInUp">人气：<span id="show_i_hits">${anchorInfo.getLookNumber()}</span></p>
             <div class="wow animated fadeInUp">
-                ${anchorInfo.getContent()}
+            ${anchorInfo.getContent()}
 
             </div>
             <p class="text-right wow animated fadeInUp animated" style="visibility: visible;">编辑：荣耀玉手</p>
@@ -46,9 +45,10 @@
             </h4>
             <ul class="list-unstyled clearfix wow animated fadeInUp">
                 <#list anchorInfoList as anchor>
-                     <li><a href="/rysj/anchor/detail?id=${anchor.getId()}" target="_blank">益豪娱创艺人|${anchor.getNickname()}</a>
-                         <small class="pull-right">02-06</small>
-                     </li>
+                    <li><a href="/rysj/anchor/detail?id=${anchor.getId()}"
+                           target="_blank">益豪娱创艺人|${anchor.getNickname()}</a>
+                        <small class="pull-right">${anchor.getCreateTime()! "02-06" }</small>
+                    </li>
                 </#list>
 
             </ul>
@@ -61,7 +61,8 @@
                 <li class="red">全国服务热线：</li>
                 <li class="red">24小时服务手机：</li>
                 <li class="red">在线咨询：
-                    <small class="xx-qq"><a href="http://wpa.qq.com/msgrd?v=3&uin=331139839&site=qq&menu=yes""" target="_blank">qq咨询</a>
+                    <small class="xx-qq"><a href="http://wpa.qq.com/msgrd?v=3&uin=331139839&site=qq&menu=yes"""
+                        target="_blank">qq咨询</a>
                     </small>
                 </li>
             </ul>
@@ -76,13 +77,14 @@
 <!-- footer end -->
 <!-- kehu start -->
 <div class="kefu">
-  <ul class="list-unstyled">
+    <ul class="list-unstyled">
     <#--<li><a href="/contact" title="更多联系方式" target="_blank" class="kefu-lx">在线客服</a></li>
     <li><a href="#yy" class="kefu-yy" title="快速给我们留言" rel="nofollow">快速留言</a></li>
     <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1007363025&site=qq&menu=yes" class="kefu-zx">在线咨询</a></li>
     <li><a href="#yy" class="kefu-wx" title="华星微信公众号" rel="nofollow">微信公众号<span class="kefu-weixin"><img src="picture/kefu-weixin.jpg" width="140" height="140" alt=""/></span></a></li>
-    --><li><a href="#top" class="kefu-top" title="回网页顶部" rel="nofollow">返回顶部</a></li>
-  </ul>
+    -->
+        <li><a href="#top" class="kefu-top" title="回网页顶部" rel="nofollow">返回顶部</a></li>
+    </ul>
 </div>
 <!-- jQuery start -->
 <script src="/rysj/js/jquery.min.js"></script>

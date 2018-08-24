@@ -109,7 +109,7 @@
                             <div class="header bordered-sky">
                                 轮播图片添加
                                 <span class="badge badge-sky badge-square">
-                                     提示：图片高度宽度1100px
+                                     提示：图片高度1100px
                                 </span>
                             </div>
                             <div class="layui-upload">

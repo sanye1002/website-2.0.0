@@ -64,7 +64,6 @@
             var code = $("#code:checked").val();
             var type = obj.find("option:selected").val();
 
-
             if (phone==""){
                 layer.msg("手机号码不能为空，请重新输入！",{
                     time:1000
@@ -82,14 +81,8 @@
                     time:1000
                 });
                 return false;
-            }
-            if (type =='1' || type =='2' || type == '3' || type == '4'){
-
-            }else{
-                layer.msg("选择登录类型错误，请重新选择！",{
-                    time:1000
-                });
-                return false;
+            }else {
+                return true;
             }
 
 

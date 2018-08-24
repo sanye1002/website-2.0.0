@@ -3,6 +3,7 @@ package com.rysj.service.impl;
 import com.rysj.dataobject.AnchorInfo;
 import com.rysj.repository.AnchorInfoRepository;
 import com.rysj.service.AnchorInfoService;
+import com.rysj.utils.GetTimeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
@@ -26,7 +27,9 @@ public class AnchorInfoServiceImpl implements AnchorInfoService {
 
     @Override
     public AnchorInfo save(AnchorInfo anchorInfo) {
-
+        if (anchorInfo.getId() == null){
+            anchorInfo.setCreateTime(GetTimeUtil.getMMdd());
+        }
         return repository.save(anchorInfo);
     }
 

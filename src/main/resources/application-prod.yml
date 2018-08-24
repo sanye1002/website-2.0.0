@@ -8,6 +8,8 @@ spring:
   jpa:
     show-sql: false
     #文件上传大小配置
+    hibernate:
+                ddl-auto: update
   http:
     multipart:
       max-file-size: 10MB

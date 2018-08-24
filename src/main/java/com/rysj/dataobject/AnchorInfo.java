@@ -39,10 +39,7 @@ public class AnchorInfo implements Serializable {
 
     private Integer showStatus;
 
-    /**
-     * 2.0
-     */
-    //private Integer show = 0;
+    private String createTime;
 
     public AnchorInfo() {
         

@@ -46,13 +46,17 @@ public class AnchorInfoPageController {
     @GetMapping("/detail")
     public ModelAndView detail(@Param(value = "id") Integer id,
                                Map<String,Object> map){
-        PageRequest pageRequest = new PageRequest(0,6);
+
+        int page =(int)Math.floor(id/10);
+        log.info("page={}",page);
+        PageRequest pageRequest = new PageRequest( page==0? page: page-1 ,10);
         Page<AnchorInfo> anchorInfoPage = service.findList(pageRequest);
 
         map.put("anchorInfoList",anchorInfoPage.getContent());
         log.info("id={}",id);
         AnchorInfo anchorInfo = service.findOne(id);
         map.put("anchorInfo",anchorInfo);
+        map.put("description","荣耀世纪主播,荣耀世纪艺人,"+anchorInfo.getNickname()+","+anchorInfo.getLiveId());
         return new ModelAndView("rysj/view/anchorInfo",map);
     }
 }

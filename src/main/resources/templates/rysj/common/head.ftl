@@ -6,8 +6,9 @@
     <title>益豪娱创-网红艺人的必要选择</title>
     <meta name="description"
           content=""/>
-    <meta name="keywords" content="网络直播,网络主播,成为主播,益豪娱创，荣耀世纪文化传媒"/>
-    <meta name="author" content=""/>
+    <meta name="keywords" content="网络直播,网络主播,成为主播,益豪娱创，益豪娱创文化传媒有限公司，yhyc,YHYC,艺人经纪"/>
+    <meta name="author" content="赵祥,三爷,popo"/>
+    <meta name="robots" content="index, follow">
     <link href="/rysj/css/style.css" rel="stylesheet">
     <link href="/rysj/css/animate.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="/rysj/imgs/web_logo.ico"/>

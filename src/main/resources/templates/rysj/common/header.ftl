@@ -16,8 +16,8 @@
                 </li>
                 <li><a href="">产品中心</a>
                     <ul class="list-unstyled">
-                        <li><a href=''>软件产品</a></li>
-                        <li><a href=''>影视制作</a></li>
+                        <li><a href='/rysj/product/info?type=app'>软件产品</a></li>
+                        <li><a href='/rysj/product/info?type=video'>影视制作</a></li>
                     </ul>
                 </li>
                 <li><a href="/rysj/recruit/anchor">艺人招募</a>

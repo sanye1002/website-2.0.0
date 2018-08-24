@@ -6,7 +6,9 @@ spring:
     password: weile1314
     url: jdbc:mysql://120.79.2.77/website?characterEncoding=utf-8&useSSL=false
   jpa:
-    show-sql: false
+    show-sql: true
+    hibernate:
+                ddl-auto: update
     #文件上传大小配置
   http:
     multipart:

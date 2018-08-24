@@ -87,11 +87,6 @@
                                                        class="colored-blueberry">
                                                 <span class="text">业界资讯</span>
                                             </label>
-                                            <label>
-                                                <input name="form-field-radio" value="3" type="radio"
-                                                       class="colored-blueberry">
-                                                <span class="text">益豪娱创</span>
-                                            </label>
                                         </div>
                                     </div>
                                 </div>
@@ -125,6 +120,8 @@
 </div>
 
 <#include "../common/footjs.ftl">
+<script src="/layui/layui.js" charset="utf-8"></script>
+
 <script type="text/javascript">
     var article = {
         title: "",

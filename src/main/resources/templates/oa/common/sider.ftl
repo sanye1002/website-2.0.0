@@ -181,6 +181,57 @@
             </ul>
         </li>
         <!--More Pages-->
+        <li  <#if pageId==21|| pageId==22>class="open" </#if>>
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon glyphicon glyphicon-phone"></i>
+                <span class="menu-text"> 软件中心 </span>
+
+                <i class="menu-expand"></i>
+            </a>
+
+            <ul class="submenu">
+                <li <#if pageId==21>class="active" </#if>>
+                    <a href="/oa/app/index">
+                        <span class="menu-text">软件介绍添加</span>
+                    </a>
+                </li>
+
+                <li <#if pageId==22>class="active" </#if>>
+                    <a href="/oa/app/list">
+                        <span class="menu-text">软件介绍查看</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <!-- -->
+        <li  <#if pageId==23|| pageId==24>class="open" </#if>>
+            <a href="#" class="menu-dropdown">
+                <i class="menu-icon glyphicon glyphicon-facetime-video"></i>
+                <span class="menu-text"> 影视制作 </span>
+
+                <i class="menu-expand"></i>
+            </a>
+
+            <ul class="submenu">
+                <li <#if pageId==23>class="active" </#if>>
+                    <a href="/oa/videoMake/index">
+                        <span class="menu-text">影视制作添加</span>
+                    </a>
+                </li>
+
+                <li <#if pageId==24>class="active" </#if>>
+                    <a href="/oa/videoMake/list">
+                        <span class="menu-text">影视制作查看</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li <#if pageId == 25 >class="active"</#if>>
+            <a href="/oa/product/list.html">
+                <i class="menu-icon glyphicon glyphicon-check"></i>
+                <span class="menu-text"> 业务列表 </span>
+            </a>
+        </li>
        <#-- <li>
             <a href="#" class="menu-dropdown">
                 <i class="menu-icon glyphicon glyphicon-link"></i>
