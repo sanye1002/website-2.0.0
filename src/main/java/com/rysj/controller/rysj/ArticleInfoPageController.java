@@ -41,6 +41,9 @@ public class ArticleInfoPageController {
         map.put("articleList", articleInfoPage.getContent());
         map.put("type", articleInfo.getType());
         map.put("articleInfo", articleInfo);
+        map.put("title",articleInfo.getArticleTitle());
+        map.put("keywords",articleInfo.getArticleTitle()+",荣耀世纪主播,荣耀世纪艺人");
+        map.put("description",articleInfo.getInfo());
         return new ModelAndView("rysj/view/articleInfo", map);
     }
 

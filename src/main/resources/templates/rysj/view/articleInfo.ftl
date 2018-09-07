@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<#include "../common/head.ftl">
+<#include "../common/head2SEO.ftl">
 <body>
 <!-- head start -->
 <#include "../common/header.ftl">
@@ -113,6 +113,19 @@
 <script type="text/javascript" src="/rysj/js/jiaodiantu.js"></script>
 <script type="text/javascript" src="/rysj/js/nav.hover.js"></script>
 
-
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
 </body>
 </html>

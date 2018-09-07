@@ -2,6 +2,7 @@ package com.rysj.controller.rysj;
 
 import com.rysj.dataobject.AnchorInfo;
 import com.rysj.service.AnchorInfoService;
+import com.rysj.utils.SEOUtil;
 import com.rysj.utils.SortTools;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,7 +57,9 @@ public class AnchorInfoPageController {
         log.info("id={}",id);
         AnchorInfo anchorInfo = service.findOne(id);
         map.put("anchorInfo",anchorInfo);
-        map.put("description","荣耀世纪主播,荣耀世纪艺人,"+anchorInfo.getNickname()+","+anchorInfo.getLiveId());
+        map.put("title",anchorInfo.getNickname()+"|益豪娱创艺人");
+        map.put("keywords","益豪娱创艺人,"+anchorInfo.getNickname()+",陌陌ID"+anchorInfo.getLiveId());
+        map.put("description",SEOUtil.getDescription(anchorInfo.getContent()));
         return new ModelAndView("rysj/view/anchorInfo",map);
     }
 }

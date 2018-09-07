@@ -3,10 +3,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
-    <title>益豪娱创-网红艺人的必要选择</title>
+    <title>${title}</title>
     <meta name="description"
           content="${description}"/>
-    <meta name="keywords" content="益豪娱创，益豪娱创文化传媒有限公司，yhyc,YHYC,艺人经纪"/>
+    <meta name="keywords" content="${keywords}"/>
     <meta name="author" content=""/>
     <link href="/rysj/css/style.css" rel="stylesheet">
     <link href="/rysj/css/animate.min.css" rel="stylesheet">

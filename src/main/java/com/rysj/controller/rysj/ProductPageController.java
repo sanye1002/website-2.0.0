@@ -46,12 +46,16 @@ public class ProductPageController {
             list = videoMakeService.findAll2ProductVO(1);
             map.put("list", list);
             map.put("type", type);
+            map.put("title","影视制作");
+            map.put("keywords","影视制作");
             map.put("description", "月步科技,文化传媒管理系统，传媒公司官网");
             return new ModelAndView("rysj/view/productInfo");
         }
         list = appOpenService.findAll2ProductVO(1);
         map.put("list", list);
         map.put("type", type);
+        map.put("title","软件中心");
+        map.put("keywords","软件中心");
         map.put("description", "月步科技,文化传媒管理系统，传媒公司官网");
         return new ModelAndView("rysj/view/productInfo");
     }
